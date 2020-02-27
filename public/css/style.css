@@ -295,8 +295,8 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/forestsmall.jpg);
-    background-size: auto%;
+    background-image: url(../img/grid.png);
+    background-size: cover;
     /* background-blen3-mode: multiply; */
     color: var(--clr-light);
     text-align: center;
@@ -324,6 +324,7 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
+    font-weight: 450
 }
 
 @media (min-width: 800px) {
@@ -379,6 +380,9 @@ header {
         position: relative;
         z-index: 2;
     }
+    .about-me__body {
+        font-weight: 510
+    }
 }
 
 /* My Work */
@@ -416,6 +420,12 @@ header {
     opacity: .5;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 /* footer */
 
@@ -469,6 +479,7 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+    font-weight: 550;
 }
 
 .portfolio-item-individual p {
