@@ -295,9 +295,9 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/services-bg.jpg);
-    background-size: cover;
-    /* background-blend-mode: multiply; */
+    background-image: url(../img/forestsmall.jpg);
+    background-size: auto%;
+    /* background-blen3-mode: multiply; */
     color: var(--clr-light);
     text-align: center;
 }
