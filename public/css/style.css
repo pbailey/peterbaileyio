@@ -213,10 +213,6 @@ header {
 }
 
 
-
-
-
-
 .hamburger {
     display: block;
     position: relative;
@@ -381,10 +377,9 @@ header {
         z-index: 2;
     }
     .about-me__body {
-        font-weight: 510
+        font-weight: 505
     }
 }
-
 /* My Work */
 
 .my-work {
